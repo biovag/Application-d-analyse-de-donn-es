@@ -174,7 +174,7 @@ if uploaded_file is not None:
         st.download_button("📥 Télécharger les données", buffer.getvalue(), file_name="rapport_analyse.csv", mime="text/csv")
 else:
     st.info("Veuillez uploader un fichier pour commencer.")
-attrs==25.3.0
+
 blinker==1.9.0
 cachetools==5.5.2
 certifi==2025.4.26
